@@ -18,3 +18,11 @@ end
 <% 3.times do |n| %>
 	<%= n %><br />
 <% end %>
+
+<% @array.each do |n| %>
+	<%= n %><br />
+<% end %>
+
+<br />
+
+<%= link_to('Index page', {:action => 'index'}) %><br />
