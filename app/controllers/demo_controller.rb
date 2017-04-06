@@ -4,9 +4,11 @@ class DemoController < ApplicationController
 
   def index
   	# render('index') default setting Generally used with if-then-else
+  	render('index')
   end
 
   def hello
+  	render('hello')
   end
 
   def other_hello
